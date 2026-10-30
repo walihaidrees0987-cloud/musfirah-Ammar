@@ -18,7 +18,7 @@
 @container invitation (max-width:340px){h2{font-size:31px}.arabic-copy{font-size:18px;width:225px}.arabic-venue{font-size:31px}.bismillah{width:190px}.palette span{width:48px;height:48px}.countdown{gap:10px}.countdown>div{min-width:53px}.number{font-size:34px}.dress-code>p{font-size:19px}.attendance form{max-width:calc(100% - 36px)}.radio{font-size:13px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}[data-reveal],[data-enter],.entering [data-enter]{opacity:1!important}.sparkles{display:none}}
 
-.arabic-copy{font-family:ReemKufi,serif;font-size:20px;line-height:34px}.arabic-copy p+p{margin-top:25px}.arabic-venue{top:600px}.outfit-art{width:250px;object-fit:contain}.music-toggle{display:none!important}
+.arabic-copy{font-family:ReemKufi,serif;font-size:20px;line-height:34px}.arabic-copy p+p{margin-top:25px}.arabic-venue{top:600px}.outfit-art{width:250px;object-fit:contain}
 
 .hero-names p{padding-inline:22px}.arabic-venue{padding-inline:35px;font-size:30px;line-height:36px;top:630px}.arabic-divider{top:715px}.timeline time{font-size:23px}.schedule{height:340px}.walima-ceremony{text-align:center;padding:35px 24px 48px}.walima-ceremony p{font-size:21px;line-height:32px}.walima-ceremony .ceremony-time{margin:12px 0 22px;font-family:Ovo,Georgia,serif}.walima-ceremony h3{font-size:25px;line-height:36px}.venue-link{display:inline-block;margin-top:20px;font-size:17px;text-underline-offset:4px}
 
@@ -29,3 +29,13 @@
 
 .hero-names p{margin-top:52px}
 
+
+/* Formal family invitation above the couple's names. */
+.hero{height:940px}.hero-names{top:155px;padding:0 24px}.hero-names p{padding-inline:0;margin-top:0}.hero-names .hero-bismillah{font-family:ReemKufi,serif;font-size:25px;line-height:44px;margin-bottom:26px}.hero-names .hero-family-intro{font-size:15px;line-height:25px;margin-bottom:16px}.hero-names .hero-parents{font-family:Ovo,Georgia,serif;font-size:22px;line-height:31px;margin-bottom:21px}.hero-names .hero-invitation{font-size:16px;line-height:26px;margin-bottom:35px}.hero-names .hero-tagline{font-size:17px;line-height:26px;margin-top:52px}.hero-bottom{background:linear-gradient(#fae7d322,#fae7d3aa 25%,#fae7d3bb 80%,var(--peach))}
+@container invitation (max-width:390px){.hero{height:930px}.hero-names{top:140px;padding-inline:18px}.hero h1{font-size:53px}.hero-names .hero-parents{font-size:21px}.hero-names .hero-bismillah{font-size:23px}}
+
+.music-toggle{display:grid;place-items:center;background:var(--gold);color:#fff8ef;border:1px solid #fae7d388;font-size:22px;box-shadow:0 3px 14px #4b102344}
+
+.hero-names .hero-bismillah{font-family:"Traditional Arabic","Noto Naskh Arabic","Arabic Typesetting","Times New Roman",serif;font-size:clamp(23px,7cqi,30px);font-weight:400;line-height:2.2;padding:12px 4px;margin:0 auto 20px;width:100%;max-width:360px;overflow:visible;white-space:normal;text-shadow:none}.family-contacts{font-family:Ovo,Georgia,serif;font-style:normal;display:grid;gap:22px;margin:25px auto 28px;max-width:310px}.family-contacts p{font-size:20px;line-height:30px}.family-contacts a{display:inline-block;font-size:18px;line-height:30px;letter-spacing:1px;text-decoration:none;border-bottom:1px solid #660f2b55}.family-contacts a:hover{text-decoration:underline}footer .footer-message{font-size:19px;line-height:30px}
+
+.gracious-presence{text-align:center;padding:48px 24px 45px;border-top:1px solid #660f2b26;background:#f6dfca}.gracious-presence h2{white-space:normal;font-size:36px;line-height:1.3;margin-bottom:12px}.gracious-presence .family-contacts{margin:30px auto 0;gap:26px}@container invitation (max-width:340px){.gracious-presence h2{font-size:31px}}
